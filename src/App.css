@@ -93,14 +93,13 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    background: linear-gradient(to right, rgb(59, 41, 41), rgb(179, 178, 178), rgb(9, 29, 9));
+    background: rgb(179, 178, 178);
   }
   img {
-    object-fit: contain;
     margin: 5px;
-    width: 200px;
-    height: 200px;
-    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 2px  2px 4px 4px rgba(0,0,0,0.2), 4px 4px 8px 8px #f8f8f8;
   }
   footer {
     width: 100%;
